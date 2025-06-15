@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'fratura': 'eco21.html',
         'nucleo': 'eco22.html',
         'fim': 'eco23.html',
-        'ternura_culpa_controle_lucidez_impulso': `finaloculto.html`,
+        '/ternura_culpa_controle_lucidez_impulso': `finaloculto.html`,
         'subaca': 'subaca.html',
         'cdf': 'IACDFbody.html',
         'cinzas da fogueira': 'IACDFbody.html',
