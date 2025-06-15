@@ -4,3 +4,5 @@ Trabalho desenvolvido e apresentado por Théo Tavares Klein como Trabalho de Con
 Texto: Théo Tavares Klein 
 Design: Théo Tavares Klein 
 Código: Bruno Pagliarini & Kaynan Rodrigues
+
+Para melhor experiência não abra a pasta javascript já que as nela contém todas as respostas
