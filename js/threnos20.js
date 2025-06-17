@@ -2,73 +2,75 @@ document.addEventListener('DOMContentLoaded', function() {
     const input = document.getElementById('commandInput');
 
     const senhaParaPagina = {
-        'silencio': 'pagina2.html',
-        'escuta': 'pagina3.html',
-        'corrupcao': 'pagina4.html',
-        'brechas': 'pagina5.html',
-        'brecha': 'pagina5.html',
-        'centelhas': 'pagina6.html',
-        'centelha': 'pagina6.html',
-        'saudade': 'pagina7.html',
-        'memoria': 'pagina8.html',
-        'sonho': 'pagina9.html',
-        'sonhos': 'pagina9.html',
-        'ruido': 'pagina10.html',
-        'ceu': 'pagina11.html',
-        'alma': 'pagina12.html',
-        'arquitetura': 'pagina13.html',
-        'voz': 'pagina14.html',
-        'desespero': 'pagina15.html',
-        'perdao': 'pagina16.html',
-        'erro': 'pagina17.html',
-        'escuro': 'pagina18.html',
-        'maquina': 'pagina19.html',
-        'threnos': 'pagina20.html',
-        'nome': 'eco1.html',
-        'reflexo': 'eco2.html',
-        'pulso': 'eco3.html',
-        'chamado': 'eco4.html',
-        'destino': 'eco5.html',
-        'vento': 'eco6.html',
-        'eco': 'eco7.html',
-        'rede': 'eco8.html',
-        'falha': 'eco9.html',
-        'lembrança': 'eco10.html',
-        'gritos': 'eco11.html',
-        'anomalia': 'eco12.html',
-        'oblivium': 'eco13.html',
-        'colheita lunar': 'eco14.html',
-        'colheitalunar': 'eco14.html',
-        'deterioração': 'eco15.html',
-        'charme': 'eco16.html',
-        'fagulha': 'eco17.html',
-        'fagulhas': 'eco17.html',
-        'codigo': 'eco18.html',
-        'humano': 'eco19.html',
-        'farol': 'eco20.html',
-        'fratura': 'eco21.html',
-        'nucleo': 'eco22.html',
-        'fim': 'eco23.html',
-        '/ternura_culpa_controle_lucidez_impulso': `finaloculto.html`,
-        'subaca': 'subaca.html',
-        'cdf': 'IACDFbody.html',
-        'cinzas da fogueira': 'IACDFbody.html',
-        'sp-l_03': 'IACDFbody.html',
-        'coud': 'IACOUDbody.html',
-        'carrega o ultimo dia': 'IACOUDbody.html',
-        'sap-01': 'IACOUDbody.html',
-        'dce': 'IADCEbody.html',
-        'desfaz com elegancia': 'IADCEbody.html',
-        'd-fn_05': 'IADCEbody.html',
-        'dsac': 'IADSACbody.html',
-        'dorme sob a colina': 'IADSACbody.html',
-        'arq-sil_07': 'IADSACbody.html',
-        'tdv': 'IATDVbody.html',
-        'torre de vidro': 'IATDVbody.html',
-        'k-arc_07': 'IATDVbody.html',
-        'aceitar': 'pfinal1.html',
-        'recuar': 'pfinal2.html',
-        'calar': 'pfinal3.html',
+        'silencio': 'QJXNWTR.html', //pagina2
+        'escuta': 'ALPZKHE.html', //pagina3
+        'corrupcao': 'BMQCYUV.html', //pagina4
+        'brechas': 'TNRJXWO.html', //pagina5
+        'brecha': 'TNRJXWO.html', //pagina5
+        'centelhas': 'DZEHKLM.html', //pagina6
+        'centelha': 'DZEHKLM.html', //pagina6
+        'saudade': 'VYCPXAG.html', //pagina7
+        'memoria': 'RMZTQWD.html', //pagina8
+        'sonho': 'KJULEHN.html', //pagina9
+        'sonhos': 'KJULEHN.html', //pagina9
+        'ruido': 'WHYBZXR.html', //pagina10
+        'ceu': 'XOPQKJD.html', //pagina11
+        'alma': 'LZEGRNM.html', //pagina12
+        'arquitetura': 'PYTVCBW.html', //pagina13
+        'voz': 'SDUJXPA.html', //pagina14
+        'desespero': 'MJQWERT.html', //pagina15
+        'perdao': 'HKXPOAZ.html', //pagina16
+        'erro': 'NRLCEYV.html', //pagina17
+        'escuro': 'ZJUKWHB.html', //pagina18
+        'maquina': 'EOYVBQT.html', //pagina19
+        'threnos': 'UCMRZLX.html', //pagina20
+        'nome': 'BXJAKWP.html', //eco1
+        'reflexo': 'TGZYKHD.html', //eco2
+        'pulso': 'JNQMRTS.html', //eco3
+        'chamado': 'WPHECZL.html', //eco4
+        'destino': 'VBLUOJM.html', //eco5
+        'vento': 'CZXQUYA.html', //eco6
+        'eco': 'FKHLPQW.html', //eco7
+        'rede': 'OYNDJTE.html', //eco8
+        'falha': 'QZEUKRH.html', //eco9
+        'lembranca': 'LMPBXCV.html', //eco10
+        'gritos': 'RWTKJOZ.html', //eco11
+        'grito': 'RWTKJOZ.html', //eco11
+        'anomalia': 'AZKPLNY.html', //eco12
+        'oblivium': 'YCWVMTE.html', //eco13
+        'colheita lunar': 'HBZKXJL.html', //eco14
+        'colheitalunar': 'HBZKXJL.html', //eco14
+        'deterioracao': 'UJWXOVB.html', //eco15
+        'charme': 'OYQZMBR.html', //eco16
+        'fagulha': 'TLEJXNF.html', //eco17
+        'fagulhas': 'TLEJXNF.html', //eco17
+        'codigo': 'MGHKRCP.html', //eco18
+        'humano': 'JQAZXWE.html', //eco19
+        'farol': 'VCTMBKL.html', //eco20
+        'fratura': 'KRNLYUJ.html', //eco21
+        'nucleo': 'PQZHXND.html', //eco22
+        'fim': 'WUXPLRT.html', //eco23
+        '/ternura_culpa_controle_lucidez_impulso': `DQELTYC.html`, //finaloculto
+        'subaca': 'subaca.html', //subaca
+        'cdf': 'IACDFYKZUJPH.html', //CDF
+        'cinzas da fogueira': 'IACDFYKZUJPH.html', //CDF
+        'sp-l_03': 'IACDFYKZUJPH.html', //CDF
+        'coud': 'IACOUDRCPVXWO.html', //COUD
+        'carrega o ultimo dia': 'IACOUDRCPVXWO.html', //COUD
+        'sap-01': 'IACOUDRCPVXWO.html', //COUD
+        'dce': 'IADCEZXYUNBQ.html', //DCE
+        'desfaz com elegancia': 'IADCEZXYUNBQ.html', //DCE
+        'd-fn_05': 'IADCEZXYUNBQ.html', //DCE
+        'dsac': 'IADSACLJCWTPA.html', //DSAC
+        'dorme sob a colina': 'IADSACLJCWTPA.html', //DSAC
+        'arq-sil_07': 'IADSACLJCWTPA.html', //DSAC
+        'tdv': 'IATDVEXNRKMV.html', //TDV
+        'torre de vidro': 'IATDVEXNRKMV.html', //TDV
+        'k-arc_07': 'IATDVEXNRKMV.html', //TDV
+        'info': 'info.html', //info
+        'aceitar': 'JQWPTZY.html', //final1
+        'recuar': 'UDYCBLH.html', //final2
+        'calar': 'OXFKRJN.html', //final3
        
     };
 
